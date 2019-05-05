@@ -31,7 +31,7 @@ class Main extends Component {
   render() {
     return (
       <Fragment>
-        <form onSubmit={this.render.handleAddRepository}>
+        <form onSubmit={this.handleAddRepository}>
           <input
             placeholder="user/repository"
             value={this.state.repositoryInput}
