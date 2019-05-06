@@ -10,3 +10,9 @@ export const addFavoriteSuccess = data => ({
   type: 'ADD_FAVORITE_SUCCESS',
   payload: { data },
 });
+
+// ERROR
+export const addFavoriteFailure = error => ({
+  type: 'ADD_FAVORITE_FAILURE',
+  payload: { error },
+});
